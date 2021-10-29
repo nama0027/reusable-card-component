@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Card from './component/Card';
 
 export const App = () => {
   return (
-    <div>
-      Find me in src/app.js!
+    <div className="reuseable-card">
+      <Card title="" image="" altText="" date="" number="" />
     </div>
-  )
-}
+  );
+};

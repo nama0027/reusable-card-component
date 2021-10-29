@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rosarivo&display=swap');
+
+.card {
+  width: 25rem;
+  height: 40.62rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #e5dccd;
+  font-weight: 400;
+  font-style: normal;
+  box-shadow: -4px 4px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+.image {
+  width: 100%;
+  height: 27rem;
+}
+.info {
+  padding: 0 24px;
+}
+.info div {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  text-transform: uppercase;
+}
+.info h1 {
+  line-height: 4rem;
+  font-family: 'Rosarivo', serif;
+  font-size: 2.88rem;
+  margin: 0;
+}
+
+@media only screen and (min-width:599px) {
+
+.card {
+  width: 31.25rem;
+
+
+}
+
+}
