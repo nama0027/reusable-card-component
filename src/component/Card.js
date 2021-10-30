@@ -1,4 +1,5 @@
 import React from 'react';
+import placeHolder from 'assets/placeholder.png'
 import './card.css';
 import moment from 'moment';
 
@@ -8,9 +9,10 @@ const Card = ({ title, image, altText, date, number }) => {
       {image !== '' && <img src={image} alt={altText} className="image" />}
       {image === '' && (
         <img
-          src="https://picsum.photos/id/1025/200/300"
+          src={placeHolder}
           alt="Placeholder."
-          className="image" />
+          className="image"
+        />
       )}
       <div className="info">
         <div>
